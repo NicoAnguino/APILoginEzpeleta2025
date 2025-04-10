@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Excluimos los archivos OBJ, BIN y la carpeta .vs ya que se crean nuevamente al ejecutarse.
+bin/
+obj/
+\.vs
+\Ezpeleta2025\.vs
