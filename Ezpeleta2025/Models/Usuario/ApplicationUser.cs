@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 public class ApplicationUser : IdentityUser
 {
-    // Puedes agregar campos extra como:
+    //AGREGAMOS CAMPO EXTRA DE LA HERENCIA
     public string? NombreCompleto { get; set; }
 }
