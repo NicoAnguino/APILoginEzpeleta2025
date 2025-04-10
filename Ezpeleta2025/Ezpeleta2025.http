@@ -1,0 +1,6 @@
+@Ezpeleta2025_HostAddress = http://localhost:5268
+
+GET {{Ezpeleta2025_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
